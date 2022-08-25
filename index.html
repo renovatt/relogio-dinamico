@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Dinâmico</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/ico/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <div class="overlay">
+        <div id="load" class="load"></div>
+    </div>
+    <main class="container">
+        <section class="clock">
+            <section class="info-time">
+                <div class="time">
+                    <span id="hour"></span>
+                    <span class="hour">Horas</span>
+                </div>
+                <div class="time">
+                    <span id="minutes"></span>
+                    <span class="minutes">Minutos</span>
+                </div>
+                <div class="time">
+                    <span id="seconds"></span>
+                    <span class="seconds">Segundos</span>
+                </div>
+            </section>
+    
+            <section class="info-data">
+                <div class="data"></div>
+            </section>
+        </section>
+
+        <aside class="day-set">
+            <button class="btn-day" onmouseover="sleeping()">Dormindo</button>
+            <button class="btn-day" onmouseover="awaken()">Começando o dia</button>
+            <button class="btn-day" onmouseover="myJob()">Indo ao trabalho</button>
+            <button class="btn-day" onmouseover="working()">No trabalho</button>
+            <button class="btn-day" onmouseover="eat()">Almoço</button>
+            <button class="btn-day" onmouseover="home()">Voltando para casa</button>
+            <button class="btn-day" onmouseover="enjoy()">Tempo livre</button>
+        </aside>
+
+        <section class="content-animation" id="thumb">
+            <article class="card">
+                <div id="sleep">
+                    <img src="assets/animations/sleeping.gif" alt="">
+                </div>
+            </article>
+
+            <article class="card">
+                <div id="morning">
+                    <img src="assets/animations/morning.gif" alt="">
+                </div>
+            </article>
+
+            <article class="card">
+                <div id="job">
+                    <img src="assets/animations/going-to-job.gif">
+                </div>
+            </article>
+
+            <article class="card">
+                <div id="work">
+                    <img src="assets/animations/working-1.gif">
+                </div>
+            </article>
+
+            <article class="card">
+                <div id="lunch">
+                    <img src="assets/animations/lunch-time.gif">
+                </div>
+            </article>
+
+            <article class="card">
+                <div id="backHome">
+                    <img src="assets/animations/back-to-home.gif">
+                </div>
+            </article>
+
+            <article class="card">
+                <div id="freeTime">
+                    <img src="assets/animations/free-time-1.gif">
+                </div>
+            </article>
+        </section>
+
+        <footer class="footer">
+                <p>© 2022 willcode</p>
+                <p>Powered by <a href="https://www.linkedin.com/in/renovatt/" target="_blank">renovatt</a></p>
+        </footer>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

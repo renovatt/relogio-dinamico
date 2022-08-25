@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-(link do projeto)
+https://renovatt.github.io/relogio-dinamico/
 
 Esse é o meu relógio dinâmico, onde busquei fazer de modo que lembrasse mais o dia a dia normal de uma pessoa, desde o início até o final, claro que ainda dá para melhorar, mas no momento esse foi o meu resultado. Para maior interação busquei por animações que se encaixassem nessa ideia.
 

@@ -7,10 +7,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-html {
-    -webkit-tap-highlight-color: transparent;
-}
-
 body{
     display: flex;
     justify-content: center;
@@ -64,6 +60,7 @@ body{
     border: 1px solid #000;
     transform: translateX(80px);
     transition: all .3s;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .day-set:hover{
